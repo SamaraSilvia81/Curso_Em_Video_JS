@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+
+    <link href="style.css" rel="stylesheet"/>    
+
+    <!--ex003.html-->
+
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- Comentário em HTML -->
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) 
+        var n2 = Number.parseFloat(window.prompt('Digte um número real: '))
+        var n3 = Number(window.prompt("Digite outro valor: ")) // Number(n) o próprio sistema identifica Int/Float
+        var s = n1 + n2 + n3
+        window.alert('A soma de ' +n1+ '+' +n2+ '+' +n3+' é: '+ s)
+        
+        /* number + number para adição
+           string + string para concatenação
+           Se digitar número real com variável inteiro o sistema arredonda.
+           String(n) ou n.toString() - conversão de number para string.
+           window.prompt retorna um valor string independente se você digitou um número.
+           Number.parseInt(n) ou Number.parseFloat(n)- conversões de string para number.
+           Conversão na variável soma - Ex: var s = Number.parseInt(n1) + Number.parseInt(n2). Ou no próprio comando.
+         */
+    </script>
+</body>
+</html>
