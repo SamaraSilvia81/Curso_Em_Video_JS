@@ -1,0 +1,1 @@
+Olá! Esse projeto é voltado para compor meu desempenho no Curso de JavaScript do canal CursoEmVideo de Guanabara.
