@@ -1,32 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link href="style.css" rel="stylesheet"/>    
-
-    <!--ex004.html-->
-   
+    <title>Selecionando Componentes</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
 
-    <script>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong> DOM </strong> em JS </p>
+    <div id="msg">Clique em mim</div>
+    <div name="msg2">Nova Div</div>
+    <div class="msg3">Nova Div 3</div>
 
-        var nome = window.prompt('Qual seu nome?')
-        document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`) // escreve na tela
-        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}.<br/>`) 
-        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}.<br/>`)
+    <script src="index.js"></script>
 
-        // O comando .lenght indica o tamanho daquilo que foi pedido.
-        // (n).toFixed(2) - comando para adicionar casas decimais.
-        // (n).toFixed(2).replace('.',',') - comando para passar os pontos para vírgulas.
-        // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - currency = moeda. 
-        // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - EUA(USD) e Euro(EUR).
-
-    </script>
-    
 </body>
 </html>
